@@ -115,7 +115,7 @@ while True:
         new_segment = turtle.Turtle()
         new_segment.speed(0)
         new_segment.shape("square")
-        new_segment.color("balck")
+        new_segment.color("black")
         new_segment.penup()
         segments.append(new_segment)
 
@@ -160,5 +160,6 @@ while True:
             sc.clear()
             sc.write("score: {} High score: {}".format(score,high_score), align="center", font=("ds-digital",24,"normal"))
     time.sleep(delay)
+    
 wn.mainloop()                
 
